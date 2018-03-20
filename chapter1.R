@@ -26,8 +26,40 @@ if(FALSE)
   Arrays
   Factors
   Data Frames"
-  
+#  Data Type	Example	Verify
+#Logical	TRUE, FALSE	
+#		v <- TRUE 
+#		print(class(v))
+#		it produces the following result −
+#		[1] "logical" 
+#Numeric	12.3, 5, 999	
+#		v <- 23.5
+#		print(class(v))
+#		it produces the following result −
+#		[1] "numeric"
+#Integer	2L, 34L, 0L	
+#		v <- 2L
+#		print(class(v))
+#		it produces the following result −
+#		[1] "integer"
+#Complex	3 + 2i	
+#		v <- 2+5i
+#		print(class(v))
+#		it produces the following result −
+#		[1] "complex"
+#Character	'a' , '"good", "TRUE", '23.4'	
+#		v <- "TRUE"
+#		print(class(v))
+#		it produces the following result −
+#		[1] "character"
+#Raw	"Hello" is stored as 48 65 6c 6c 6f	
+#		v <- charToRaw("Hello")
+#		print(class(v))
+#		it produces the following result −
+#		[1] "raw" 
+
 }
+
 
 #Vector
 # create a vector 
